@@ -1,5 +1,10 @@
 #include "MyHeader.h"
 
+int FeatureToAdd(int InValueA, int InValueB)
+{
+	return InValueA + InValueA;
+}
+
 int main()
 {
 	int checkPoint = 3; //staged
