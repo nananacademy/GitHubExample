@@ -6,6 +6,4 @@ int main()
 	float myFloatB = 41.5f;
 
 	bool myBool = false;
-
-	bool myOtherBool = true;
 }
