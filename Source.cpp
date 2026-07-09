@@ -13,4 +13,13 @@ int main()
 	float myFloatB = 166.5f;
 
 	float myFloatC = 0;
+
+	bool isItemPickedUp = false;
+	bool isItemExistingInWorld = true;
+
+	if (isItemPickedUp == true)
+	{
+		isItemExistingInWorld = false;
+	}
+	
 }
