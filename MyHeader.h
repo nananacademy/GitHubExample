@@ -4,4 +4,4 @@ int playerLocX = 3;
 int playerLocY = 4;
 
 int enemyKillCount = 20;
-int level = 8;
+int level = 10;

@@ -5,5 +5,5 @@ int Add(int InValue)
 	int* myInt = new int(20);
 	
 	delete myInt;
-	return InValue +20;
+	return InValue +400;
 }
