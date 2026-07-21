@@ -32,5 +32,7 @@ int main()
 	{
 		isItemExistingInWorld = false;
 	}
+
+	int someInt = 10;
 	
 }
