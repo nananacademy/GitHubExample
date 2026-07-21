@@ -1,0 +1,8 @@
+.vs
+HeaderToIgnore.h
+*.mp3
+removeThisFolder/
+myNewFolder/
+.idea
+WorkinDirectory
+
