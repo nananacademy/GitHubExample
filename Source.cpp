@@ -9,7 +9,7 @@ int FeatureToAdd(int InValueA, int InValueB)
 
 int main()
 {
-	int DamageToApply = 1000;
+	int DamageToApply = 9000;
 	Add(10);
 	String myOtherString = "my name";
 	String myString = "hello world";
