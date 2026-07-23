@@ -3,5 +3,7 @@ class ACharacter
 {
 public:
 	ACharacter();
+
+	void MyCharacterFunct();
 };
 
