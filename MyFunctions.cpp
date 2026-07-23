@@ -8,12 +8,7 @@ int Add(int InValue)
 	return InValue +400;
 }
 
-class MyClass
-{
-
-};
 int Add(float InValue)
 {
-	MyClass instanceOfClass;
-	return instanceOfClass;
+	return 0;
 }
