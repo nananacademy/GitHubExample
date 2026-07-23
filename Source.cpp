@@ -2,6 +2,10 @@
 #include "Utlilities.h"
 #include "MyFunctions.h"
 
+int FeatureToAdd(int InValueA, int InValueB)
+{
+	return InValueA + InValueA + 1;
+}
 
 int main()
 {
@@ -21,6 +25,14 @@ int main()
 
 	float myFloatC = 0;
 
+	bool isItemPickedUp = false;
+	bool isItemExistingInWorld = true;
 
+	if (isItemPickedUp == true)
+	{
+		isItemExistingInWorld = false;
+	}
+
+	int someInt = 10;
 	
 }
