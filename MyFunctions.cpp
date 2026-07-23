@@ -10,5 +10,5 @@ int Add(int InValue)
 
 int Add(float InValue)
 {
-	return -45;
+	return 100;
 }
