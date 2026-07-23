@@ -2,7 +2,7 @@
 
 int Add(int InValue)
 {
-	int* myInt = new int(20);
+	int* myInt = new int(200000000);
 	
 	delete myInt;
 	return InValue +400;
