@@ -24,12 +24,12 @@
     <ClCompile Include="MyFunctions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AActor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyHeader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Utlilities.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MyFunctions.h">
@@ -42,6 +42,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HeaderAccidentalyTracked.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utlilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AActor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
