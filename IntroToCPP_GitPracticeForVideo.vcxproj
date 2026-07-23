@@ -128,11 +128,13 @@
   <ItemGroup>
     <ClCompile Include="AActor.cpp" />
     <ClCompile Include="ACharacter.cpp" />
+    <ClCompile Include="AEnemyCharacter.cpp" />
     <ClCompile Include="MyFunctions.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ACharacter.h" />
+    <ClInclude Include="AEnemyCharacter.h" />
     <ClInclude Include="HeaderAccidentalyTracked.h" />
     <ClInclude Include="HeaderToIgnore.h" />
     <ClInclude Include="MyFunctions.h" />
