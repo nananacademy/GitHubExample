@@ -10,6 +10,5 @@ int Add(int InValue)
 
 int Add(float InValue)
 {
-
-	return "string";
+	return 0;
 }
