@@ -3,3 +3,7 @@
 ACharacter::ACharacter()
 {
 }
+
+void ACharacter::MyCharacterFunct()
+{
+}
