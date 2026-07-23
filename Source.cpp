@@ -2,6 +2,7 @@
 #include "Utlilities.h"
 #include "MyFunctions.h"
 #include "AActor.h"
+#include "ACharacter.h"
 
 int FeatureToAdd(int InValueA, int InValueB)
 {
