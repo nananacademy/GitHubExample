@@ -8,7 +8,12 @@ int Add(int InValue)
 	return InValue +400;
 }
 
+class MyClass
+{
+
+};
 int Add(float InValue)
 {
-	return 0;
+	MyClass instanceOfClass;
+	return instanceOfClass;
 }
