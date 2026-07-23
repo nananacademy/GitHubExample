@@ -1,6 +1,7 @@
 #include "MyHeader.h"
 #include "Utlilities.h"
 #include "MyFunctions.h"
+#include "AActor.h"
 
 int FeatureToAdd(int InValueA, int InValueB)
 {
@@ -9,6 +10,7 @@ int FeatureToAdd(int InValueA, int InValueB)
 
 int main()
 {
+	AActor myActor;
 	int DamageToApply = 1000;
 	Add(10);
 	String myOtherString = "my name";
