@@ -126,6 +126,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AActor.cpp" />
     <ClCompile Include="ACharacter.cpp" />
     <ClCompile Include="MyFunctions.cpp" />
     <ClCompile Include="Source.cpp" />
