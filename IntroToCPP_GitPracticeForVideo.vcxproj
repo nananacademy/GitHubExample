@@ -128,6 +128,7 @@
   <ItemGroup>
     <ClCompile Include="AActor.cpp" />
     <ClCompile Include="MyFunctions.cpp" />
+    <ClCompile Include="NarrativeSystem.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +138,7 @@
     <ClInclude Include="MyFunctions.h" />
     <ClInclude Include="MyHeader.h" />
     <ClInclude Include="MyTrackedHeaderTwo.h" />
+    <ClInclude Include="NarrativeSystem.h" />
     <ClInclude Include="Utlilities.h" />
   </ItemGroup>
   <ItemGroup>
