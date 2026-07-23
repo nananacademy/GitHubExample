@@ -7,8 +7,3 @@ int Add(int InValue)
 	delete myInt;
 	return InValue +400;
 }
-
-int Add(float InValue)
-{
-	return 100;
-}
