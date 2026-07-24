@@ -11,6 +11,8 @@ int FeatureToAdd(int InValueA, int InValueB)
 
 int main()
 {
+	ACharacter myCharacter;
+	myCharacter.Attack();
 	AActor myActor;
 	int DamageToApply = 1000;
 	Add(10);
