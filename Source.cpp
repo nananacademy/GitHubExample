@@ -9,6 +9,19 @@ int FeatureToAdd(int InValueA, int InValueB)
 	return InValueA + InValueA + 1;
 }
 
+int ComplicatedFunctionForNarrative()
+{
+	// start aweome
+
+	std::cout << "very complicated narrative system code" << std::endl;
+
+
+
+
+	//end of awesome code
+	return 5;
+}
+
 int main()
 {
 	AActor myActor;
