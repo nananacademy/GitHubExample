@@ -30,3 +30,8 @@ void MainMenu::SetDifficulty(Difficultly InDifficultySelected)
 {
 	mDifficultlySelected = InDifficultySelected;
 }
+
+void MainMenu::SetVolume(int InVolume)
+{
+	mVolume = InVolume;
+}
