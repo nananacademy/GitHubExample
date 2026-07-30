@@ -130,6 +130,7 @@
     <ClCompile Include="CombatSystem.cpp" />
     <ClCompile Include="MainMenu.cpp" />
     <ClCompile Include="MyFunctions.cpp" />
+    <ClCompile Include="PlayerController.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +142,7 @@
     <ClInclude Include="MyFunctions.h" />
     <ClInclude Include="MyHeader.h" />
     <ClInclude Include="MyTrackedHeaderTwo.h" />
+    <ClInclude Include="PlayerController.h" />
     <ClInclude Include="Utlilities.h" />
   </ItemGroup>
   <ItemGroup>

@@ -35,3 +35,8 @@ void MainMenu::SetVolume(int InVolume)
 {
 	mVolume = InVolume;
 }
+
+void MainMenu::SetButtonSelected(ButtonSelected InButtonSelected)
+{
+	mButtonSelected = InButtonSelected;
+}
