@@ -1,8 +1,17 @@
 #pragma once
+
+enum class Difficultly
+{
+	Easy,
+	Med,
+	Hard
+};
+
 class MainMenu
 {
 protected:
 	static MainMenu* mInstance;
+	
 	MainMenu();
 
 	MainMenu(const MainMenu& InMainMenuRightOperand) = delete;
