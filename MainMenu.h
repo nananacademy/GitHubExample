@@ -11,7 +11,7 @@ class MainMenu
 {
 protected:
 	static MainMenu* mInstance;
-	
+	Difficultly mDifficultlySelected = Difficultly::Easy;
 	MainMenu();
 
 	MainMenu(const MainMenu& InMainMenuRightOperand) = delete;
