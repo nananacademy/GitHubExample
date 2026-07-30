@@ -22,5 +22,7 @@ public:
 	void DisplayMenu();
 
 	void DisplayDamage(int InDamage);
+
+	void SetDifficulty(Difficultly InDifficultySelected);
 };
 

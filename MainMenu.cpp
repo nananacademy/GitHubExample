@@ -25,3 +25,8 @@ void MainMenu::DisplayDamage(int InDamage)
 {
 	std::cout << "damage " << InDamage << std::endl;
 }
+
+void MainMenu::SetDifficulty(Difficultly InDifficultySelected)
+{
+	mDifficultlySelected = InDifficultySelected;
+}
