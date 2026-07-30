@@ -13,5 +13,7 @@ public:
 	void DisplayMenu();
 
 	void DisplayDamage(int InDamage);
+
+	void ChangeButtonSelected(int Input);
 };
 

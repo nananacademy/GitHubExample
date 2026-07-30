@@ -25,3 +25,7 @@ void MainMenu::DisplayDamage(int InDamage)
 {
 	std::cout << "damage " << InDamage << std::endl;
 }
+
+void MainMenu::ChangeButtonSelected(int Input)
+{
+}
