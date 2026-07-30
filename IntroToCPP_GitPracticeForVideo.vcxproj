@@ -128,6 +128,7 @@
   <ItemGroup>
     <ClCompile Include="AActor.cpp" />
     <ClCompile Include="CombatSystem.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
     <ClCompile Include="MyFunctions.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
@@ -136,6 +137,7 @@
     <ClInclude Include="CombatSystem.h" />
     <ClInclude Include="HeaderAccidentalyTracked.h" />
     <ClInclude Include="HeaderToIgnore.h" />
+    <ClInclude Include="MainMenu.h" />
     <ClInclude Include="MyFunctions.h" />
     <ClInclude Include="MyHeader.h" />
     <ClInclude Include="MyTrackedHeaderTwo.h" />
