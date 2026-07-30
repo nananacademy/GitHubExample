@@ -127,11 +127,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AActor.cpp" />
+    <ClCompile Include="CombatSystem.cpp" />
     <ClCompile Include="MyFunctions.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AActor.h" />
+    <ClInclude Include="CombatSystem.h" />
     <ClInclude Include="HeaderAccidentalyTracked.h" />
     <ClInclude Include="HeaderToIgnore.h" />
     <ClInclude Include="MyFunctions.h" />
