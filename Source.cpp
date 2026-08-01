@@ -6,7 +6,7 @@
 
 int FeatureToAdd(int InValueA, int InValueB)
 {
-	return InValueA + InValueA + 1;
+	return InValueA + InValueA + 5000;
 }
 
 int ComplicatedFunctionForNarrative()
