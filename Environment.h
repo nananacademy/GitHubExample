@@ -16,6 +16,8 @@ public:
 		mName;
 	}
 
+	void SetName(std::string InName);
+
 	char GetIcon()
 	{
 		return mIcon;
