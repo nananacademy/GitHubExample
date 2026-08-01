@@ -5,5 +5,7 @@ public:
 	ACharacter();
 
 	void MyCharacterFunct();
+
+	void Attack();
 };
 
