@@ -7,6 +7,6 @@ class Environment
 
 public:
 	virtual void Interact();
-
+	virtual void OnOverlap();
 };
 

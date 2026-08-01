@@ -3,3 +3,7 @@
 void Environment::Interact()
 {
 }
+
+void Environment::OnOverlap()
+{
+}
