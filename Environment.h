@@ -4,6 +4,7 @@
 class Environment
 {
 	std::string mName = "default";
+	char mIcon = '=';
 
 public:
 	virtual void Interact();
