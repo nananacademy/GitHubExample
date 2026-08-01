@@ -132,6 +132,7 @@
     <ClCompile Include="MainMenu.cpp" />
     <ClCompile Include="MyFunctions.cpp" />
     <ClCompile Include="PlayerController.cpp" />
+    <ClCompile Include="NarrativeSystem.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +146,7 @@
     <ClInclude Include="MyHeader.h" />
     <ClInclude Include="MyTrackedHeaderTwo.h" />
     <ClInclude Include="PlayerController.h" />
+    <ClInclude Include="NarrativeSystem.h" />
     <ClInclude Include="Utlilities.h" />
   </ItemGroup>
   <ItemGroup>
