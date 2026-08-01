@@ -2,11 +2,25 @@
 #include "Utlilities.h"
 #include "MyFunctions.h"
 #include "AActor.h"
+#include "NarrativeSystem.h"
 #include "ACharacter.h"
 
 int FeatureToAdd(int InValueA, int InValueB)
 {
-	return InValueA + InValueA + 1;
+	return InValueA + InValueA + 5000;
+}
+
+int ComplicatedFunctionForNarrative()
+{
+	// start aweome
+
+	std::cout << "very complicated narrative system code" << std::endl;
+
+
+
+
+	//end of awesome code
+	return 5;
 }
 
 int main()

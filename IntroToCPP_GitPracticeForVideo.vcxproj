@@ -126,18 +126,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CombatSystem.cpp" />
+    <ClCompile Include="Environment.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
     <ClCompile Include="AActor.cpp" />
     <ClCompile Include="ACharacter.cpp" />
     <ClCompile Include="MyFunctions.cpp" />
+    <ClCompile Include="PlayerController.cpp" />
+    <ClCompile Include="NarrativeSystem.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AActor.h" />
+    <ClInclude Include="CombatSystem.h" />
+    <ClInclude Include="Environment.h" />
     <ClInclude Include="ACharacter.h" />
     <ClInclude Include="HeaderAccidentalyTracked.h" />
     <ClInclude Include="HeaderToIgnore.h" />
+    <ClInclude Include="MainMenu.h" />
     <ClInclude Include="MyFunctions.h" />
     <ClInclude Include="MyHeader.h" />
     <ClInclude Include="MyTrackedHeaderTwo.h" />
+    <ClInclude Include="PlayerController.h" />
+    <ClInclude Include="NarrativeSystem.h" />
     <ClInclude Include="Utlilities.h" />
   </ItemGroup>
   <ItemGroup>
