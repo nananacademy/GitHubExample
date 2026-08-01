@@ -3,6 +3,7 @@
 #include "MyFunctions.h"
 #include "AActor.h"
 #include "NarrativeSystem.h"
+#include "ACharacter.h"
 
 int FeatureToAdd(int InValueA, int InValueB)
 {
@@ -24,6 +25,8 @@ int ComplicatedFunctionForNarrative()
 
 int main()
 {
+	ACharacter myCharacter;
+	myCharacter.Attack();
 	AActor myActor;
 	int DamageToApply = 1000;
 	Add(10);

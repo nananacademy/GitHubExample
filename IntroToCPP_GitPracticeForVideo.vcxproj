@@ -126,10 +126,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AActor.cpp" />
     <ClCompile Include="CombatSystem.cpp" />
     <ClCompile Include="Environment.cpp" />
     <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="AActor.cpp" />
+    <ClCompile Include="ACharacter.cpp" />
     <ClCompile Include="MyFunctions.cpp" />
     <ClCompile Include="PlayerController.cpp" />
     <ClCompile Include="NarrativeSystem.cpp" />
@@ -139,6 +140,7 @@
     <ClInclude Include="AActor.h" />
     <ClInclude Include="CombatSystem.h" />
     <ClInclude Include="Environment.h" />
+    <ClInclude Include="ACharacter.h" />
     <ClInclude Include="HeaderAccidentalyTracked.h" />
     <ClInclude Include="HeaderToIgnore.h" />
     <ClInclude Include="MainMenu.h" />
