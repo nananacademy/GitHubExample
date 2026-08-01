@@ -7,5 +7,7 @@ class PlayerCharacter : public ACharacter
 	void ChangeHealth(int InHealthChange);
 
 	void Attack(PlayerCharacter& InPlayerToDamage);
+
+	void UltimateAttack(PlayerCharacter InPlayerToDamage);
 };
 
