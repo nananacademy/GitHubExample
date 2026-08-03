@@ -5,6 +5,7 @@
 #include "NarrativeSystem.h"
 #include "AEnemyCharacter.h"
 #include "ACharacter.h"
+#include "CombatSystem.h"
 
 int FeatureToAdd(int InValueA, int InValueB)
 {
@@ -33,6 +34,8 @@ int main()
 	int DamageToApply = 1000;
 	AEnemyCharacter myEnemy;
 	myEnemy.Attack(myEnemy);
+
+	CombatSystem myCombatSystem(10);
 
 	Add(10);
 	String myOtherString = "my name";
