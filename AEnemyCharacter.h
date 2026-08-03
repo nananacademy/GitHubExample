@@ -3,7 +3,7 @@
 class AEnemyCharacter :public ACharacter
 {
 	bool mIsBoss = false;
-	int mHealth = 300;
+	int mHealth = 400;
 public:
 	void ChangeHealth(int InHealthChange);
 
