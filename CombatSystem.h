@@ -5,6 +5,7 @@ class ACharacter;
 class CombatSystem
 {
 	int mMaxDamage = 500;
+public:
 	CombatSystem(int InMaxDamage);
 	void UpdateMenu();
 
