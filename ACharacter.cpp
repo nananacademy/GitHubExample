@@ -5,6 +5,10 @@ ACharacter::ACharacter()
 {
 }
 
+ACharacter::~ACharacter()
+{
+}
+
 void ACharacter::MyCharacterFunct()
 {
 }
