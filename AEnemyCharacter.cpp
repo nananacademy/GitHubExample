@@ -14,3 +14,7 @@ void AEnemyCharacter::Attack(AEnemyCharacter& InCharacterToDamage)
 void AEnemyCharacter::Move()
 {
 }
+
+void AEnemyCharacter::Jump()
+{
+}

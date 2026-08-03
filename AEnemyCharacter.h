@@ -9,6 +9,8 @@ public:
 
 	void Attack(AEnemyCharacter& InCharacterToDamage);
 
+	void Jump();
+
 	void Move();
 };
 
