@@ -3,6 +3,7 @@
 #include "MyFunctions.h"
 #include "AActor.h"
 #include "NarrativeSystem.h"
+#include "AEnemyCharacter.h"
 #include "ACharacter.h"
 
 int FeatureToAdd(int InValueA, int InValueB)
@@ -29,6 +30,9 @@ int main()
 	myCharacter.Attack();
 	AActor myActor;
 	int DamageToApply = 1000;
+	AEnemyCharacter myEnemy;
+	myEnemy.Attack(myEnemy);
+
 	Add(10);
 	String myOtherString = "my name";
 	String myString = "hello world";
