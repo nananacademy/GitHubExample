@@ -1,4 +1,5 @@
 #include "AEnemyCharacter.h"
+#include <iostream>
 
 void AEnemyCharacter::ChangeHealth(int InHealthChange)
 {
@@ -17,4 +18,12 @@ void AEnemyCharacter::Move()
 
 void AEnemyCharacter::Jump()
 {
+	if (mJumpHeight > 3)
+	{
+		std::cout << "massive jump";
+	}
+	else
+	{
+		std::cout << "small jump";
+	}
 }
