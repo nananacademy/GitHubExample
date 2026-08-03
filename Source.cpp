@@ -16,6 +16,7 @@ int ComplicatedFunctionForNarrative()
 	// start aweome
 
 	std::cout << "very complicated narrative system code" << std::endl;
+	std::cout << "dialogue print" << std::endl;
 
 
 
