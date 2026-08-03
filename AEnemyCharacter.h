@@ -12,5 +12,7 @@ public:
 	void Jump();
 
 	void Move();
+
+	void Speak();
 };
 

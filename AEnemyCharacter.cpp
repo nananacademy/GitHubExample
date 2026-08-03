@@ -16,6 +16,11 @@ void AEnemyCharacter::Move()
 {
 }
 
+void AEnemyCharacter::Speak()
+{
+	std::cout << "sup";
+}
+
 void AEnemyCharacter::Jump()
 {
 	if (mJumpHeight > 3)
