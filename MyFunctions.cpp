@@ -7,3 +7,8 @@ int Add(int InValue)
 	delete myInt;
 	return InValue +400;
 }
+
+int GetValue()
+{
+	return 6;
+}
