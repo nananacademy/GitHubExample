@@ -24,3 +24,16 @@ void CombatSystem::DamagePlayer(PlayerCharacter& InPlayer)
 {
 	InPlayer.ChangeHealth(125);
 }
+
+void CombatSystem::DamageCharacter(ACharacter& InCharacter)
+{
+	if (AEnemyCharacter* enemy = dynamic_cast<AEnemyCharacter*>(&InCharacter))
+	{
+		enemy->ChangeHealth(30);
+	}
+	else if (PlayerCharacter* player = dynamic_cast<PlayerCharacter*>(&InCharacter))
+	{
+		player->ChangeHealth(125);
+	}
+	
+}

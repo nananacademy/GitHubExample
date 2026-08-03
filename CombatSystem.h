@@ -1,6 +1,7 @@
 #pragma once
 class AEnemyCharacter;
 class PlayerCharacter;
+class ACharacter;
 class CombatSystem
 {
 	int mMaxDamage = 500;
@@ -9,6 +10,7 @@ class CombatSystem
 
 	void DamageEnemy(AEnemyCharacter& InEnemy);
 	void DamagePlayer(PlayerCharacter& InPlayer);
+	void DamageCharacter(ACharacter& InCharacter);
 
 };
 
