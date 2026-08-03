@@ -9,3 +9,8 @@ void AEnemyCharacter::Attack(AEnemyCharacter& InCharacterToDamage)
 {
 	InCharacterToDamage.ChangeHealth(10);
 }
+
+
+void AEnemyCharacter::Move()
+{
+}

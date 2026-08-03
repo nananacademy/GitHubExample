@@ -8,5 +8,7 @@ public:
 	void ChangeHealth(int InHealthChange);
 
 	void Attack(AEnemyCharacter& InCharacterToDamage);
+
+	void Move();
 };
 
