@@ -10,5 +10,7 @@ public:
 	void Attack(PlayerCharacter& InPlayerToDamage);
 
 	void UltimateAttack(PlayerCharacter InPlayerToDamage);
+
+	void Move();
 };
 

@@ -14,3 +14,7 @@ void PlayerCharacter::UltimateAttack(PlayerCharacter InPlayerToDamage)
 {
 	InPlayerToDamage.ChangeHealth(500);
 }
+
+void PlayerCharacter::Move()
+{
+}
