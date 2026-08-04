@@ -127,6 +127,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CombatSystem.cpp" />
+    <ClCompile Include="Credits.cpp" />
     <ClCompile Include="Environment.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="MainMenu.cpp" />
@@ -142,6 +143,7 @@
   <ItemGroup>
     <ClInclude Include="AActor.h" />
     <ClInclude Include="CombatSystem.h" />
+    <ClInclude Include="Credits.h" />
     <ClInclude Include="Environment.h" />
     <ClInclude Include="ACharacter.h" />
     <ClInclude Include="AEnemyCharacter.h" />
