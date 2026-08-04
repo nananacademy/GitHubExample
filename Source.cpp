@@ -36,6 +36,7 @@ int main()
 	myEnemy.Attack(myEnemy);
 
 	CombatSystem myCombatSystem(10);
+	myCombatSystem.DamageCharacter(myCharacter);
 
 	Add(10);
 	String myOtherString = "my name";
