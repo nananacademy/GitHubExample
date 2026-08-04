@@ -1,6 +1,7 @@
 #include <string>
+
 class Item
 {
-  std::string mName = "default Item";
-  int mStrength = 1;
-}
+	std::string mName = "default Item";
+	int mStrength = 1;
+};
