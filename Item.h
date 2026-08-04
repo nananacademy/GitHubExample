@@ -7,4 +7,6 @@ class Item
 	int mStrength = 1;
 	bool mIsSpecial = false;
 	float mSpeed = 5.5f;
+
+	void PickUp();
 };
