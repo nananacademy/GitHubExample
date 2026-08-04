@@ -30,6 +30,7 @@ int ComplicatedFunctionForNarrative()
 int main()
 {
 	Item* myItem = new Item();
+	Item weapon;
 	ACharacter myCharacter;
 	myCharacter.Attack();
 	AActor myActor;
