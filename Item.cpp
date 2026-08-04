@@ -4,4 +4,5 @@
 void Item::PickUp()
 {
 	std::cout << "pick up item";
+	std::cout << "drop item";
 }
