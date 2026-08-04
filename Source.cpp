@@ -6,6 +6,7 @@
 #include "AEnemyCharacter.h"
 #include "ACharacter.h"
 #include "CombatSystem.h"
+#include "Item.h"
 
 int FeatureToAdd(int InValueA, int InValueB)
 {
@@ -28,6 +29,7 @@ int ComplicatedFunctionForNarrative()
 
 int main()
 {
+	Item* myItem = new Item();
 	ACharacter myCharacter;
 	myCharacter.Attack();
 	AActor myActor;
@@ -62,5 +64,7 @@ int main()
 	}
 
 	int someInt = 10;
+
+	delete myItem;
 	
 }
